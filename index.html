@@ -21,14 +21,38 @@
     <div>
         <form>
             <fieldset>
-                <legend>Informação do Evento</legend>
-                <div class="input-caixa">
-                    <label for="titulo-evento">Titulo do Evento <span> (mínimo 8 caracteres)</span></label>
-                    <input type="text" id="titulo-evento">
+                <div class="fieldset-caixa">
+                    <legend>Informação do Evento</legend>
+                    <div class="input-caixa">
+                        <label for="titulo-evento">Titulo do Evento <span> (mínimo 8 caracteres)</span></label>
+                        <input type="text" id="titulo-evento">
+                    </div>
+                    <div class="input-caixa">
+                        <label for="link-evento">Link do Evento <span> (comece com https://) </span></label>
+                        <input type="url" id="link-evento">
+                    </div>
+                    <div class="input-caixa">
+                        <label for="wattsap">Wattsap para contato <span> (somente números)</span></label>
+                        <input type="number" id="wattsap">
+                    </div>
+                    <div class="input-caixa">
+                        <label for="informacao-extra">Informação Extra</label>
+                        <textarea id="informacao-extra"></textarea>
+                    </div>
+                    <div class="input-caixa">
+                        <label for="categoria">Categoria</label>
+                        <select id="categoria">
+                            <option value="Ao Vivo">Ao Vivo</option>
+                            <option value="Podcast">Podcast</option>
+                            <option value="Futebol">Futebol</option>
+                            <option value="Bingo">Bingo</option>
+                            <option value="Mentoria">Mentoria</option>
+                        </select>
+                    </div>
+
+
+
                 </div>
-
-
-
             </fieldset>
         </form>
     </div>
